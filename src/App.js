@@ -37,7 +37,7 @@ function App() {
           {/* Deemphasize a button by making it look like a link while maintaining button behavior */}
           <Button variant="link">Link</Button>
           <Badge variant="warning">Warning</Badge>
-          TEST
+          TEST123
       </ButtonToolbar>
     </div>
   );
