@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ButtonToolbar, Button } from 'react-bootstrap'; 
+import { ButtonToolbar, Button, Badge } from 'react-bootstrap'; 
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
           <Button variant="danger">Danger</Button>
           {/* Deemphasize a button by making it look like a link while maintaining button behavior */}
           <Button variant="link">Link</Button>
+          <Badge variant="warning">Warning</Badge> <Badge variant="info">Info</Badge>{' '}
       </ButtonToolbar>
     </div>
   );
